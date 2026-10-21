@@ -70,7 +70,7 @@ body:
     id: summary
     attributes:
       label: What BranchKit recorded
-      description: Optional. Warnings or errors from BranchKit's logs, if you have them. Leave out anything you said or typed.
+      description: Filled in by Help → Report a problem in BranchKit. Otherwise optional; leave out anything you said or typed.
       render: text
     validations:
       required: false

@@ -11,12 +11,16 @@ open. The SDKs, tooling and public plugins are listed on the
 
 ## Report a problem
 
-Open a [bug report](../../issues/new?template=bug-report.yml) with what
-happened, your BranchKit version and your operating system.
+The easiest way is from BranchKit: **Help → Report a problem…** (also in the
+menu bar or tray menu). Describe what happened and click **Write up the
+issue**: BranchKit adds its version, your operating system and a short summary
+of the warnings and errors it recorded. You read and change all of it, then
+**Open on GitHub** opens the issue here, filled in, for you to submit.
 
-BranchKit's **Help → Report a problem…** (also in the menu bar or tray menu)
-can save a report file of its recent logs. Don't attach it to an issue:
-everything here is public. If we need it, we'll ask you for it privately.
+Or open a [bug report](../../issues/new?template=bug-report.yml) yourself.
+
+Everything here is public. If we need BranchKit's full logs, we'll ask you for
+its report file privately: please don't attach it to an issue.
 
 - **A problem in one plugin?** If the plugin has its own repository, report
   it there; BranchKit's report page sends you to the right place.
