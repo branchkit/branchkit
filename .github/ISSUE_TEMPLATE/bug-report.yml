@@ -47,14 +47,14 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+  # A text field, not a dropdown: GitHub fills text fields from a link's
+  # query (BranchKit's Report a problem sends os=macOS|Windows|Linux), and
+  # leaves a dropdown unset.
+  - type: input
     id: os
     attributes:
       label: Operating system
-      options:
-        - macOS
-        - Windows
-        - Linux
+      placeholder: "macOS, Windows or Linux"
     validations:
       required: true
 
