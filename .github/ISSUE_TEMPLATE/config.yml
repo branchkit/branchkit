@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security problem
+    url: https://github.com/branchkit/branchkit/security/advisories/new
+    about: A way around what a plugin was allowed, or a permission check gone wrong. Reported privately.
+  - name: Bug in an SDK or the CLI
+    url: https://github.com/branchkit
+    about: Building a plugin? Report SDK and CLI bugs in that repository (plugin-sdk-go, plugin-sdk-ts, plugin-sdk-py, branchkit-cli).

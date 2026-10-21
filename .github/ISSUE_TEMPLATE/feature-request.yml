@@ -1,0 +1,30 @@
+name: Idea
+description: Something you wanted BranchKit to do.
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: wanted
+    attributes:
+      label: What did you want to do?
+      description: The task, and who it's for, not the solution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: stopped
+    attributes:
+      label: Where did BranchKit get in the way?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: false
